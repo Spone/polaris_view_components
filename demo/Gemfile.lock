@@ -2,8 +2,8 @@ PATH
   remote: ..
   specs:
     polaris_view_components (0.8.0)
-      rails (>= 5.0.0, < 8.0.0)
-      view_component (>= 2.0.0, < 3.0)
+      rails (>= 5.0.0)
+      view_component (>= 2.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -78,16 +78,16 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     coderay (1.1.3)
-    concurrent-ruby (1.1.9)
+    concurrent-ruby (1.1.10)
     crass (1.0.6)
     digest (3.1.0)
     erubi (1.10.0)
     ffi (1.15.5)
     foreman (0.87.2)
-    globalid (1.0.0)
+    globalid (1.0.1)
       activesupport (>= 5.0)
     htmlbeautifier (1.4.1)
-    i18n (1.8.11)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.0.1)
       actionpack (>= 6.0.0)
@@ -112,7 +112,7 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    minitest (5.15.0)
+    minitest (5.17.0)
     msgpack (1.4.2)
     net-imap (0.2.3)
       digest
@@ -192,7 +192,7 @@ GEM
     turbo-rails (1.0.0)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
-    tzinfo (2.0.4)
+    tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     view_component (2.47.0)
       activesupport (>= 5.0.0, < 8.0)
